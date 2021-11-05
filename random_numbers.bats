@@ -7,7 +7,7 @@ digits_re='^[0-9]+$'
 
 @test "scriptExecution" {
   run sh random_numbers.sh
-  [ "$status" -eq 0 ] #Ended OK
+  [ "$status" -eq 0 ]
 }
 
 @test "arrayLenght" {
